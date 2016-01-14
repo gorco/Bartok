@@ -73,7 +73,7 @@ public class Card : MonoBehaviour
 					// ^ Set it to the highest layer to cover everything else
 					break;
 				case "Card_Front": // if the name is "face"
-					tSR.sortingOrder = 0;
+					tSR.sortingOrder = sOrd;
 					break;
 				default:     // or if it's anything else
 					tSR.sortingOrder = sOrd + 1;
